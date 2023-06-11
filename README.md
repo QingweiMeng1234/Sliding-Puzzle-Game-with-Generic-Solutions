@@ -63,5 +63,5 @@ This algorithm mimics the Dijkstra's algorithm, an algorithm for finding the sho
 It is not easy to analyze this algorithm's complextiy. It is bounded by the Dijkstra's Algorithm with $O((\sqrt{n}!)^2) = O(n^n)$. However, since there is only a small fraction of board being explored. the average case is going to be much better.
 
 ## Memory Analysis:
-The memory is bounded by O(n^n). However, the average usage would be much better since we are not using all the possible board positions.
+The memory is bounded by $O(n^n)$. However, the average usage would be much better since we are not using all the possible board positions.
 
