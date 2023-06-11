@@ -18,4 +18,12 @@ python solver.py
 It asks the user to put the number one by one in a row order, and then output the steps.
 
 ## Solver Algorithm Explanation
+I have applied a Heuristic Search Algorithm. It works by exploring possible moves, favoring those that seem to lead towards a solution. For this algorithm, the heuristic is the Manhattan distance from each tile to its goal position.
 
+Below are the details of the 
+
+1. Initiate a priority queue with the following entries:
+  - Number of moves has made so far and the estimated moves remaining (measured by the Mahattan Distance)
+  - Number of moves that has already made,
+  - The board at this position
+  - The path that has already been taken.
