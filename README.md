@@ -1,4 +1,4 @@
-# Sliding-Puzzle-Game-with-Generic-Solutions
+# Sliding Puzzle Game with Generic Solutions
 
 ## Game Introduction
 This game consists of a nxn grid with nxn - 1 numbered tiles and one blank space, which the player can slide into the empty space. The goal of the puzzle is to arrange the tiles into numerical order.
